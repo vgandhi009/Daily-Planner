@@ -18,10 +18,11 @@
 body {
   margin: 0;
   font-family: "Poppins", "Inter", system-ui, -apple-system, sans-serif;
-  background: var(--bg);
+  background: linear-gradient(180deg, #fffaf6 0%, #ffe9df 100%);
   color: var(--text);
   transition: all 0.3s ease;
 }
+
 
 /* basic layout padding */
 .container {
