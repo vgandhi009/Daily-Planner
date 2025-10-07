@@ -67,3 +67,17 @@ li:hover {
   background-color: var(--accent-light);
   transition: background-color 0.2s ease;
 }
+
+/* Title styling */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #d48d75; /* warm peach tone */
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
