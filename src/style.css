@@ -1,84 +1,42 @@
-/* 🌸 Vrunda's Soft Aesthetic Theme */
-
-:root {
-  --bg: #fffaf6;
-  --card: #ffffff;
-  --accent: #f9c8b1;      /* peach */
-  --accent-light: #ffe9df;
-  --text: #3f3f3f;
-  --border: #f1e4db;
-  --shadow: rgba(0,0,0,0.04);
-  --radius: 20px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Poppins", "Inter", system-ui, -apple-system, sans-serif;
-  background: linear-gradient(180deg, #fffaf6 0%, #ffe9df 100%);
-  color: var(--text);
-  transition: all 0.3s ease;
-}
-
-
-/* basic layout padding */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* cards */
-.bg-white {
-  background: var(--card) !important;
-  border-radius: var(--radius);
-  box-shadow: 0 8px 20px var(--shadow);
-}
-
-/* buttons */
+/* 🌸 Buttons — soft peach theme */
 button {
-  border-radius: var(--radius);
+  background-color: #f9c8b1 !important; /* peach */
+  color: white !important;
+  border: none !important;
+  font-weight: 500;
   transition: 0.25s;
 }
 
 button:hover {
+  background-color: #f7bfa4 !important; /* slightly deeper peach */
   transform: translateY(-1px);
-  opacity: 0.9;
 }
 
-/* accent color touches */
-input:focus,
-select:focus,
-textarea:focus {
-  border-color: var(--accent);
-  outline: none;
-  box-shadow: 0 0 0 2px var(--accent-light);
+/* 🩰 Secondary (ghost) buttons */
+button.bg-white {
+  background-color: #fff5f0 !important;
+  color: #d48d75 !important;
+  border: 1px solid #f3d1c1 !important;
 }
 
-/* headers */
-h1, h2, h3 {
-  color: var(--text);
+button.bg-white:hover {
+  background-color: #ffe8dd !important;
 }
 
-/* subtle hover highlight */
-li:hover {
-  background-color: var(--accent-light);
-  transition: background-color 0.2s ease;
+/* 🧡 Checkbox styling */
+input[type="checkbox"] {
+  accent-color: #f9c8b1;
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
 }
 
-/* Title styling */
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-style: italic;
-  color: #d48d75; /* warm peach tone */
-  letter-spacing: 0.5px;
+/* ✨ Small peach glow on hover */
+input[type="checkbox"]:hover {
+  box-shadow: 0 0 4px #f9c8b1;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+/* 🌼 Links and highlights */
+a, .text-peach {
+  color: #d48d75;
 }
