@@ -1,1 +1,69 @@
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+/* 🌸 Vrunda's Soft Aesthetic Theme */
+
+:root {
+  --bg: #fffaf6;
+  --card: #ffffff;
+  --accent: #f9c8b1;      /* peach */
+  --accent-light: #ffe9df;
+  --text: #3f3f3f;
+  --border: #f1e4db;
+  --shadow: rgba(0,0,0,0.04);
+  --radius: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Inter", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: all 0.3s ease;
+}
+
+/* basic layout padding */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* cards */
+.bg-white {
+  background: var(--card) !important;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 20px var(--shadow);
+}
+
+/* buttons */
+button {
+  border-radius: var(--radius);
+  transition: 0.25s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+/* accent color touches */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--accent);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-light);
+}
+
+/* headers */
+h1, h2, h3 {
+  color: var(--text);
+}
+
+/* subtle hover highlight */
+li:hover {
+  background-color: var(--accent-light);
+  transition: background-color 0.2s ease;
+}
