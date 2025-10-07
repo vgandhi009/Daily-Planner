@@ -1,21 +1,23 @@
-/* 🌸 Buttons — soft peach theme */
+/* 🖤 Buttons — peach background + black text */
 button {
-  background-color: #f9c8b1 !important; /* peach */
-  color: white !important;
+  background-color: #f9c8b1 !important; /* soft peach */
+  color: #222 !important; /* elegant black text */
   border: none !important;
   font-weight: 500;
   transition: 0.25s;
+  border-radius: 20px;
 }
 
 button:hover {
   background-color: #f7bfa4 !important; /* slightly deeper peach */
   transform: translateY(-1px);
+  color: #000 !important;
 }
 
-/* 🩰 Secondary (ghost) buttons */
+/* 🤍 Secondary buttons (ghost) */
 button.bg-white {
   background-color: #fff5f0 !important;
-  color: #d48d75 !important;
+  color: #000 !important;
   border: 1px solid #f3d1c1 !important;
 }
 
@@ -23,7 +25,7 @@ button.bg-white:hover {
   background-color: #ffe8dd !important;
 }
 
-/* 🧡 Checkbox styling */
+/* ✅ Checkbox */
 input[type="checkbox"] {
   accent-color: #f9c8b1;
   width: 18px;
@@ -31,12 +33,16 @@ input[type="checkbox"] {
   border-radius: 6px;
 }
 
-/* ✨ Small peach glow on hover */
+/* ✨ Add subtle glow on hover */
 input[type="checkbox"]:hover {
   box-shadow: 0 0 4px #f9c8b1;
 }
 
-/* 🌼 Links and highlights */
+/* 🌼 Text & Links */
+body, h1, h2, h3, p, span, li {
+  color: #1c1c1c !important; /* blackish text */
+}
+
 a, .text-peach {
-  color: #d48d75;
+  color: #222;
 }
