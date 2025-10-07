@@ -1,8 +1,53 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vrunda’s Daily Planner</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vrunda’s Daily Planner</title>
 
-  <!-- 🌸 Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-</head>
+    <!-- 🖤 Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,600&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 🩶 Base Styles -->
+    <style>
+      body {
+        margin: 0;
+        background: linear-gradient(180deg, #fffaf6 0%, #ffe9df 100%);
+        color: #000000;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+
+      h1 {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-weight: 600;
+        color: #000000;
+        margin-top: 100px;
+        letter-spacing: 0.5px;
+      }
+
+      p {
+        color: #333333;
+        font-weight: 400;
+        margin-top: -5px;
+      }
+
+      #root {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Vrunda’s Daily Planner</h1>
+    <p>Plan your day beautifully ✨</p>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
